@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for num in range(1, 101):
+for num in range(1, 100):
     if num % 3 == 0:
         print("Fizz", end='')
     if num % 5 == 0:
