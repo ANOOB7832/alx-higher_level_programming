@@ -1,14 +1,14 @@
 #!/usr/bin/node
 const { argv } = require('node:process');
-let counts = 0;
+const procs = [];
 
 argv.forEach((val, index) => {
-  counts += 1;
+  procs.push(index);
 });
-if (counts > 3) {
+if (procs.length > 3) {
   console.log('Arguments found');
-} else if (counts > 2) {
+} else if (procs.length > 2) {
   console.log('Argument found');
-} else if (counts === 2) {
+} else if (procs.length === 2) {
   console.log('No argument');
 }
