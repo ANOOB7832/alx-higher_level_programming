@@ -11,7 +11,7 @@ argv.forEach((val, index) => {
   return (firstVal = procs.slice(2));
 });
 
-if (firstVal === __filename) {
+if (firstVal[0] === undefined) {
   console.log('No argument');
 } else {
   console.log(firstVal[0]);
