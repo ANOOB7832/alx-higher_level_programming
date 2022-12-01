@@ -7,7 +7,6 @@ let firstVal = [];
 argv.forEach((val, index) => {
   procs.push(val);
   counts.push(index);
-  const remVals = [process.execPath, __filename];
   return (firstVal = procs.slice(2));
 });
 
