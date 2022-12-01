@@ -1,5 +1,4 @@
 #!/usr/bin/node
 
-langArray = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-
+const langArray = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
 langArray.forEach(val => console.log(val));
