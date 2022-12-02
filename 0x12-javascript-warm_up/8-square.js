@@ -9,15 +9,20 @@ let sq = '';
 argv.forEach((val) => {
   procs.push(val);
   num = Number(procs[procs.length - 1]);
-  return num;
 });
+switch (Number.isNaN(num)) {
+  case false:
+    do {
+    i = i + 1;
+    sq = sq + 'X';
+    } while (i < num);
 
-do {
-  i = i + 1;
-  sq = sq + 'X';
-} while (i < num);
-
-do {
-  j = j + 1;
-  console.log(sq);
-} while (j < num);
+    do {
+      j = j + 1;
+      console.log(sq);
+    } while (j < num);
+    break;
+  case true:
+    console.log('Missing size');
+    break;
+}
