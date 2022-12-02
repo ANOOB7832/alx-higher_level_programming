@@ -13,8 +13,8 @@ argv.forEach((val) => {
 switch (Number.isNaN(num)) {
   case false:
     do {
-    i = i + 1;
-    sq = sq + 'X';
+      i = i + 1;
+      sq = sq + 'X';
     } while (i < num);
 
     do {
