@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-from calculator_1 import add, subtract, multiply, divide
+if __name__ == "__main__":
+    from calculator_1 import add, subtract, multiply, divide
 
 add(10, 5)
 subtract(10, 5)

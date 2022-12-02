@@ -9,7 +9,7 @@ def add(a, b):
         b: second integer
 
     Returns:
-        Prints the result of a + b
+        the result of a + b
     """
     print(f'{a} + {b} = {a + b}')
 
@@ -22,7 +22,7 @@ def subtract(a, b):
         b: second integer
 
     Returns:
-        Prints the result of a - b
+        the result of a - b
     """
     print(f'{a} - {b} = {a - b}')
 
@@ -35,7 +35,7 @@ def multiply(a, b):
         b: second integer
 
     Returns:
-        Prints the result of a * b
+        the result of a * b
     """
     print(f'{a} * {b} = {a * b}')
 
@@ -48,6 +48,6 @@ def divide(a, b):
         b: second integer
 
     Returns:
-        Prints the result of a / b
+        the result of a / b
     """
     print(f"{a} / {b} = {int(a / b)}")
