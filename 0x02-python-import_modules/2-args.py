@@ -21,7 +21,7 @@ for idx, arg in enumerate(sys.argv[1:]):
             i = i + 1
 
     if len(sys.argv[1:]) > 1:
-        print(('{}: {}').format(idx, arg))
+        print(('{}: {}').format((idx + 1), arg))
 
     elif len(sys.argv[1:]) == 1:
-        print(('{}: {}').format(idx, arg))
+        print(('{}: {}').format((idx + 1), arg))
