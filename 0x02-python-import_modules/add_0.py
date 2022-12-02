@@ -1,3 +1,6 @@
+__name__ = "__main__"
+
+
 def add(a, b):
     """Addition Function
 
